@@ -23,11 +23,18 @@ class CategoryResponseModel extends Equatable {
         name: json['name'] as String,
         image: json['image'] as String,
         plates: (json['plates'] as List<dynamic>)
-            .map((e) => PlateResponseModel.fromJson(e as Map<String, dynamic>))
+            .map(
+              (e) => PlateResponseModel.fromJson(
+                Map<String, dynamic>.from(e as Map),
+              ),
+            )
             .toList(),
         extraChoices: (json['extraChoices'] as List<dynamic>?)
-            ?.map((e) =>
-                ExtraChoiceResponseModel.fromJson(e as Map<String, dynamic>))
+            ?.map(
+              (e) => ExtraChoiceResponseModel.fromJson(
+                Map<String, dynamic>.from(e as Map),
+              ),
+            )
             .toList(),
       );
 

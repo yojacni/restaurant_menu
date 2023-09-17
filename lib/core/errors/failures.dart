@@ -16,3 +16,19 @@ class ServerFailure extends Failure {
   @override
   List<Object> get props => [message];
 }
+
+class NetworkFailure extends Failure {
+  @override
+  List<Object> get props => [message];
+
+  @override
+  String get message => 'No connection to Internet';
+}
+
+class OtherFailure extends Failure {
+  @override
+  List<Object> get props => [message];
+
+  @override
+  String get message => 'Something went wrong';
+}

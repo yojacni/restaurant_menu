@@ -28,14 +28,22 @@ class PlateResponseModel extends Equatable {
         description: json['description'] as String,
         choices: (json['choices'] as List<dynamic>?)
             ?.map(
-                (e) => ChoiceResponseModel.fromJson(e as Map<String, dynamic>))
+              (e) => ChoiceResponseModel.fromJson(
+                Map<String, dynamic>.from(e as Map),
+              ),
+            )
             .toList(),
         size: (json['size'] as List<dynamic>?)
-            ?.map((e) => SizeResponseModel.fromJson(e as Map<String, dynamic>))
+            ?.map(
+              (e) => SizeResponseModel.fromJson(
+                Map<String, dynamic>.from(e as Map),
+              ),
+            )
             .toList(),
         temper: json['temper'] != null
             ? Temper.values.firstWhere(
-                (element) => element.toString() == json['temper'] as String,
+                orElse: () => Temper.hot,
+                (element) => element.toString() == json['cold'] as String?,
               )
             : null,
       );

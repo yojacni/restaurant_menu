@@ -11,7 +11,9 @@ class MenuResponseModel extends Equatable {
       MenuResponseModel(
         categories: (json['categories'] as List<dynamic>)
             .map(
-              (e) => CategoryResponseModel.fromJson(e as Map<String, dynamic>),
+              (e) => CategoryResponseModel.fromJson(
+                Map<String, dynamic>.from(e as Map),
+              ),
             )
             .toList(),
       );
