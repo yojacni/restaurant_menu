@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "446513084286",
+    "project_id": "restaurant-menu-b78e9",
+    "storage_bucket": "restaurant-menu-b78e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446513084286:android:823c50dab3ed837738a52f",
+        "android_client_info": {
+          "package_name": "com.example.verygoodcore.restaurant_menu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0sXHRnUyLREZA1CrSXN_xswMVfGEAKOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
