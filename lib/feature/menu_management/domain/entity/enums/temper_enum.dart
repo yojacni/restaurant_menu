@@ -1,0 +1,4 @@
+enum Temper {
+  cold,
+  hot,
+}
