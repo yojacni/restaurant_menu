@@ -35,6 +35,38 @@ _\*Restaurant Menu works on iOS, Android, Web, and Windows._
 
 ---
 
+## Project Structure
+The project follows a Clean Architecture structure:
+```
+├── core
+├── feature
+│   ├── foo
+│   │   ├── data
+│   │   ├── domain
+│   │   ├── presentation
+```
+
+## Concepts implemented
+
+1. Dependency Injection with a custom class ServiceLocator
+2. State Management with Bloc
+3. Navigation with Go Router
+4. Remote database with Firebase Realtime Firebase
+5. Flavors to separate environments
+6. Internationalization
+7. Separation of concerns
+8. Applied SOLID principles and Repository Pattern
+9. Separation of the logic from the UI
+
+## Considerations
+I created a quick prototype of a simple app to show the menu of a restaurant to the client. Is like a Virtual Menu where the user can know the choices of the day.
+The app was created following best practices to scale it with ease.
+It can be improved through some iterations with the "business owner" and some designs/features can be added as a result.
+The structure of the database can be improved with a relational database, and a WebAPI implemented with ASP.Net Core for example, but I choose Firebase for simplicity.
+I included a .json file to show how I structured the data.
+The info of the document was not the best, so I tried to do the best to structure it and make a funcional app.
+
+
 ## Running Tests 🧪
 
 To run all unit and widget tests use the following command:
