@@ -66,6 +66,15 @@ The project follows a Clean Architecture structure:
 - I included data_structure.json file in the root of the project, to show how I structured the data
 - I did my best to structure the requirements and make a funcional app.
 - Included some snapshots of the app running in both devices.
+- Included some snapshots of the Firebase Realtime Database
+
+## Aspects to consider for a real project
+-   Analytics (Firebase, etc)
+-   Bug tracking (Firebase, Sentry)
+-   Unit, widget, and integration testing
+-   Feature Flags
+-   CI/CD (Codemagic, Bitrise, Github Actions)
+-   etc...
 
 
 ## Running Tests 🧪
