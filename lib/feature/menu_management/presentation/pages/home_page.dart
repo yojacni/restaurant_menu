@@ -92,8 +92,23 @@ class _HomePageBody extends StatelessWidget {
                 selectedCategoryIndex: state.selectedCategoryIndex,
                 categories: categories,
               ),
-              SizedBox(
-                height: 10.h,
+              Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.only(
+                      left: 20.0.w,
+                      top: 20.h,
+                      bottom: 10.h,
+                    ),
+                    child: Text(
+                      'MENU FOR TODAY',
+                      style:
+                          Theme.of(context).textTheme.headlineSmall!.copyWith(
+                                fontWeight: FontWeight.w600,
+                              ),
+                    ),
+                  ),
+                ],
               ),
               PlatesWidget(
                 extrachoices:

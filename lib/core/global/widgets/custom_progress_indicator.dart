@@ -13,10 +13,14 @@ class CustomCircularProgressIndicator extends StatelessWidget {
         height: double.infinity,
         width: double.infinity,
         color: Colors.white,
-        child: SizedBox(
-          height: 50.h,
-          width: 50.h,
-          child: const CircularProgressIndicator.adaptive(),
+        child: Center(
+          child:SizedBox(
+            height: 50.h,
+            width: 50.h,
+            child: const CircularProgressIndicator.adaptive(
+
+            ),
+          )
         ),
       ),
     );

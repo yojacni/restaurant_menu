@@ -1,4 +1,4 @@
-package com.example.verygoodcore.restaurant_menu
+package com.yojacni.restaurant_menu
 
 import io.flutter.embedding.android.FlutterActivity
 

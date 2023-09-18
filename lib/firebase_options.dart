@@ -51,17 +51,19 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyB0sXHRnUyLREZA1CrSXN_xswMVfGEAKOI',
-    appId: '1:446513084286:android:823c50dab3ed837738a52f',
+    appId: '1:446513084286:android:950788980e84ab2938a52f',
     messagingSenderId: '446513084286',
     projectId: 'restaurant-menu-b78e9',
+    databaseURL: 'https://restaurant-menu-b78e9-default-rtdb.firebaseio.com',
     storageBucket: 'restaurant-menu-b78e9.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBZmYN5Kj9kfhcq2vKTRmaSuFUhiQFpHfs',
-    appId: '1:446513084286:ios:f45fa2f1a63ae4dc38a52f',
+    appId: '1:446513084286:ios:ac7eb51dae4081e938a52f',
     messagingSenderId: '446513084286',
     projectId: 'restaurant-menu-b78e9',
+    databaseURL: 'https://restaurant-menu-b78e9-default-rtdb.firebaseio.com',
     storageBucket: 'restaurant-menu-b78e9.appspot.com',
     iosBundleId: 'com.yojacni.restaurant-menu',
   );

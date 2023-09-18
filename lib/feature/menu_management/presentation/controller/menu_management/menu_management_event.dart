@@ -14,7 +14,7 @@ class MenuManagementFetchCategoriesEvent extends MenuManagementEvent {
 }
 
 class CategoryChangedEvent extends MenuManagementEvent {
-  CategoryChangedEvent({required this.categoryIndexSelected});
+  const CategoryChangedEvent({required this.categoryIndexSelected});
 
   final int categoryIndexSelected;
 

@@ -29,7 +29,7 @@ class CategoryResponseModel extends Equatable {
               ),
             )
             .toList(),
-        extraChoices: (json['extraChoices'] as List<dynamic>?)
+        extraChoices: (json['extra-choices'] as List<dynamic>?)
             ?.map(
               (e) => ExtraChoiceResponseModel.fromJson(
                 Map<String, dynamic>.from(e as Map),

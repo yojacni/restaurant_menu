@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "446513084286",
+    "firebase_url": "https://restaurant-menu-b78e9-default-rtdb.firebaseio.com",
     "project_id": "restaurant-menu-b78e9",
     "storage_bucket": "restaurant-menu-b78e9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:446513084286:android:823c50dab3ed837738a52f",
+        "mobilesdk_app_id": "1:446513084286:android:950788980e84ab2938a52f",
         "android_client_info": {
-          "package_name": "com.example.verygoodcore.restaurant_menu"
+          "package_name": "com.yojacni.restaurant_menu"
         }
       },
       "oauth_client": [],

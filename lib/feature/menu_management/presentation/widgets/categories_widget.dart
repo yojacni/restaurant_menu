@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:restaurant_menu/feature/menu_management/domain/entity/category.dart';
-import 'package:restaurant_menu/feature/menu_management/presentation/controller/menu_management/menu_management_bloc.dart';
 import 'package:restaurant_menu/core/global/widgets/custom_network_image.dart';
 import 'package:restaurant_menu/core/global/widgets/item_container.dart';
+import 'package:restaurant_menu/feature/menu_management/domain/entity/category.dart';
+import 'package:restaurant_menu/feature/menu_management/presentation/controller/menu_management/menu_management_bloc.dart';
 
 class CategoriesWidget extends StatelessWidget {
   const CategoriesWidget({
@@ -18,7 +18,7 @@ class CategoriesWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 100.h,
+      height: 130.h,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: categories.length,
