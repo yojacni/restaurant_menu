@@ -59,12 +59,13 @@ The project follows a Clean Architecture structure:
 9. Separation of the logic from the UI
 
 ## Considerations
-I created a quick prototype of a simple app to show the menu of a restaurant to the client. Is like a Virtual Menu where the user can know the choices of the day.
-The app was created following best practices to scale it with ease.
-It can be improved through some iterations with the "business owner" and some designs/features can be added as a result.
-The structure of the database can be improved with a relational database, and a WebAPI implemented with ASP.Net Core for example, but I choose Firebase for simplicity.
-I included a .json file to show how I structured the data.
-The info of the document was not the best, so I tried to do the best to structure it and make a funcional app.
+- I created a quick prototype of a simple app to show the menu of a restaurant to the client. Is like a Virtual Menu where the user can know the choices of the day.
+- The app was created following best practices to scale it with ease.
+- It can be improved through some iterations with the "business owner" and some designs/features can be added as a result.
+- The structure of the database can be improved with a relational database, and a WebAPI implemented with ASP.Net Core for example, but I choose Firebase for simplicity.
+- I included data_structure.json file in the root of the project, to show how I structured the data
+- I did my best to structure the requirements and make a funcional app.
+- Included some snapshots of the app running in both devices.
 
 
 ## Running Tests 🧪
