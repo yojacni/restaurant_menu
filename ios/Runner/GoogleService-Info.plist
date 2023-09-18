@@ -25,6 +25,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:446513084286:ios:f45fa2f1a63ae4dc38a52f</string>
+	<string>1:446513084286:ios:ac7eb51dae4081e938a52f</string>
+	<key>DATABASE_URL</key>
+	<string>https://restaurant-menu-b78e9-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
